@@ -1,3 +1,7 @@
+## How To Develop
+- `npm install`
+  - Install dependencies, you'll get errors without it.
+
 ## Structure
 - `./src/clients`
   - "Clients" are isolated adapters to outside data connections (database, discord, cache, ...).
