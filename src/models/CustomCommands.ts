@@ -1,0 +1,33 @@
+export interface CustomCommands {
+  id?: number;
+  uid?: number;
+  channel_id?: number;
+  channel_name?: string;
+  uptime?: string;
+  uptime_enabled?: number;
+  uptime_message?: string;
+  uptime_message_offline?: string;
+  followage?: string;
+  followage_enabled?: number;
+  followage_message?: string;
+  followage_message_not_following?: string;
+  followage_3rd_party?: string;
+  followage_message_at?: string;
+  game?: string;
+  game_enabled?: number;
+  game_message?: string;
+  game_mode?: number;
+  permit?: string;
+  permit_enabled?: number;
+  permit_message?: string;
+  commands?: string;
+  commands_enabled?: number;
+  commands_message?: string;
+  leaderboard?: string;
+  leaderboard_enabled?: number;
+  leaderboard_message?: string;
+  title?: string;
+  title_enabled?: number;
+  title_message?: string;
+  title_mode?: number;
+}
